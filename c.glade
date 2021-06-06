@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="w1">
+    <property name="can-focus">False</property>
+    <property name="title" translatable="yes">Menu Principal</property>
+    <property name="default-width">440</property>
+    <property name="default-height">250</property>
+    <child>
+      <object class="GtkAlignment">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <property name="top-padding">31</property>
+        <property name="bottom-padding">1</property>
+        <property name="left-padding">57</property>
+        <property name="right-padding">43</property>
+        <child>
+          <!-- n-columns=1 n-rows=6 -->
+          <object class="GtkGrid">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="xpad">106</property>
+                <property name="ypad">18</property>
+                <property name="label" translatable="yes">Menu Principal</property>
+                <property name="xalign">0.5400000214576721</property>
+                <property name="yalign">0.5</property>
+                <attributes>
+                  <attribute name="font-desc" value="Sans Bold 20"/>
+                  <attribute name="foreground" value="#000000000000"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button2_w2">
+                <property name="label" translatable="yes">Gestion de voitures</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button3_w2">
+                <property name="label" translatable="yes">Gestion de clients</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">4</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button4_w2">
+                <property name="label" translatable="yes">Quitter</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+                <property name="margin-bottom">34</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">5</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button1_w2">
+                <property name="label" translatable="yes">Location</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">1</property>
+                <property name="height">2</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="w2">
+    <property name="can-focus">False</property>
+    <property name="title" translatable="yes">Location</property>
+    <property name="default-width">440</property>
+    <property name="default-height">250</property>
+    <child>
+      <object class="GtkAlignment">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <property name="left-padding">50</property>
+        <property name="right-padding">46</property>
+        <child>
+          <!-- n-columns=1 n-rows=7 -->
+          <object class="GtkGrid">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="xpad">106</property>
+                <property name="ypad">18</property>
+                <property name="label" translatable="yes">Location d' une voiture</property>
+                <property name="xalign">0.5400000214576721</property>
+                <property name="yalign">0.5</property>
+                <attributes>
+                  <attribute name="font-desc" value="Sans Bold Oblique 15"/>
+                  <attribute name="foreground" value="#000000000000"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Vc">
+                <property name="label" translatable="yes">Visualiser contrat</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Lc">
+                <property name="label" translatable="yes">Louer voiture</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Rc">
+                <property name="label" translatable="yes">Retourner voiture</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Mc">
+                <property name="label" translatable="yes">Modifier contrat</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">4</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Sc">
+                <property name="label" translatable="yes">supprimer contrat</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">5</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Rw">
+                <property name="label" translatable="yes">Retour</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+                <property name="margin-bottom">18</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">6</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="w3">
+    <property name="can-focus">False</property>
+    <property name="title" translatable="yes">Gestion voitures</property>
+    <property name="default-width">440</property>
+    <property name="default-height">250</property>
+    <child>
+      <object class="GtkAlignment">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <property name="xalign">0.5699999928474426</property>
+        <property name="left-padding">50</property>
+        <property name="right-padding">46</property>
+        <child>
+          <!-- n-columns=1 n-rows=6 -->
+          <object class="GtkGrid">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="xpad">106</property>
+                <property name="ypad">18</property>
+                <property name="label" translatable="yes">Gestion de Voitures</property>
+                <property name="xalign">0.5400000214576721</property>
+                <property name="yalign">0.5</property>
+                <attributes>
+                  <attribute name="font-desc" value="Sans Bold Oblique 15"/>
+                  <attribute name="foreground" value="#000000000000"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Lv">
+                <property name="label" translatable="yes">List Des Voitures</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Av">
+                <property name="label" translatable="yes">Ajouter voiture</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Mv">
+                <property name="label" translatable="yes">Modifier voiture</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Sv">
+                <property name="label" translatable="yes">Supprimer voiture</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">4</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Rv">
+                <property name="label" translatable="yes">Retour</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+                <property name="margin-bottom">18</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">5</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="w4">
+    <property name="width-request">263</property>
+    <property name="height-request">144</property>
+    <property name="can-focus">False</property>
+    <property name="title" translatable="yes">Gestion client </property>
+    <child>
+      <object class="GtkAlignment">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <property name="left-padding">50</property>
+        <property name="right-padding">46</property>
+        <child>
+          <!-- n-columns=1 n-rows=6 -->
+          <object class="GtkGrid">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="margin-bottom">8</property>
+                <property name="xpad">106</property>
+                <property name="ypad">18</property>
+                <property name="label" translatable="yes">Gestion de clients</property>
+                <attributes>
+                  <attribute name="font-desc" value="Sans Bold Oblique 18"/>
+                  <attribute name="foreground" value="#000000000000"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Acl">
+                <property name="label" translatable="yes">Ajouter client </property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Mcl">
+                <property name="label" translatable="yes">Modifier client</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Scl">
+                <property name="label" translatable="yes">Supprimer client </property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">4</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Rcl">
+                <property name="label" translatable="yes">Retour</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="margin-top">7</property>
+                <property name="margin-bottom">11</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">5</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="Lcl">
+                <property name="label" translatable="yes">List client</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">1</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="wM">
+    <property name="can-focus">False</property>
+    <property name="title" translatable="yes">Mini_Projet</property>
+    <property name="default-width">842</property>
+    <property name="default-height">478</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkButton" id="button2">
+            <property name="label" translatable="yes">Menu Principal</property>
+            <property name="width-request">175</property>
+            <property name="height-request">65</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="margin-bottom">10</property>
+          </object>
+          <packing>
+            <property name="x">358</property>
+            <property name="y">580</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">148</property>
+            <property name="height-request">70</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="opacity">0.91</property>
+            <property name="double-buffered">False</property>
+            <property name="margin-end">77</property>
+            <property name="xpad">0</property>
+            <property name="label" translatable="yes">                            Bonjour  
+&lt;&lt;Gestion De Location De Voiture&gt;&gt;</property>
+            <property name="track-visited-links">False</property>
+            <property name="xalign">0.5</property>
+            <property name="yalign">0.5</property>
+            <attributes>
+              <attribute name="font-desc" value="Serif Bold Italic 27"/>
+              <attribute name="foreground" value="#c6c646460000"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">112</property>
+            <property name="y">24</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width-request">-1</property>
+            <property name="height-request">63</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="xalign">0.41999998688697815</property>
+            <property name="yalign">0.47999998927116394</property>
+            <property name="xpad">3</property>
+            <property name="ypad">4</property>
+            <property name="pixbuf">..\..\Pictures\WhatsApp Image 2021-06-06 at 17.49.38.jpeg</property>
+          </object>
+          <packing>
+            <property name="x">133</property>
+            <property name="y">113</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
